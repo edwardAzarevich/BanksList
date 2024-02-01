@@ -1,14 +1,12 @@
 import './App.css'
+import Layout from './component/Layout'
 import Main from './views/Main'
 
 function App() {
 
     return (
         <>
-            <Main />
-            <div>
-                <h1 className='text-3x1'>Text with railwind css</h1>
-            </div>
+            <Layout />
 
         </>
     )
